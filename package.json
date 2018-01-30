@@ -1,0 +1,16 @@
+{
+  "name": "workshops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-plugin-json": "^1.2.0"
+  }
+}

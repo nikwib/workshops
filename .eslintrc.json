@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "node": true,
+    "mocha": true
+  },
+  "parser": "babel-eslint",
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "jsx": true,
+      "spread": true,
+      "experimentalObjectRestSpread": true,
+      "classes":true
+    }
+  },
+  "plugins": [
+    "json"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "keyword-spacing": "error",
+    "linebreak-style": "error",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": "error",
+    "space-before-blocks": "error",
+    "space-before-function-paren": "error",
+    "no-undef": "off",
+    "no-unused-vars": "off",
+    "comma-dangle": ["error", "always-multiline"]
+  }
+}
